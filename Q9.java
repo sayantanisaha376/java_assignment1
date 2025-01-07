@@ -5,7 +5,7 @@ public class Q9 {
 	                                    // Method to handle command line input
 
                                
-    private static void handleCommandLineInput(String[] args) {
+static void handleCommandLineInput(String[] args) {
         if (args.length < 1) {
             System.out.println("Please provide a number as a command-line argument.");
             return;
@@ -19,12 +19,12 @@ public class Q9 {
     }
 
                                       // Method to print the factorial of a number
-    private static void printFactorial(int num) {
+static void printFactorial(int num) {
         System.out.println("Factorial of " + num + " is: " + factorial(num));
     }
 
                                     // Method to calculate the factorial of a number
-    static int factorial(int n) {
+   static int factorial(int n) {
         if (n == 0) {
             return 1;
         }

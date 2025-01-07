@@ -1,5 +1,4 @@
-
-public class GreetUser {
+class GreetUser {
     public static void main(String[] args) {
         if (args.length < 3) {
             System.out.println("Please provide at least three usernames as command-line arguments.");
